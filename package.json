@@ -1,0 +1,12 @@
+{
+  "name": "awesome-copy-paste-ui",
+  "version": "1.0.0",
+  "description": "Kho báu UI Components theo chuẩn Copy & Paste cho Vibe Coder và Indie Hackers",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-readme.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

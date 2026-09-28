@@ -1,0 +1,12 @@
+[
+  { "name": "shadcn/ui", "url": "https://ui.shadcn.com/", "category": "React & Next.js", "styling": "Tailwind CSS + Radix", "description": "Hệ sinh thái Copy-Paste UI nổi tiếng nhất. Đẹp, tinh tế, khả năng tùy biến cao." },
+  { "name": "Aceternity UI", "url": "https://ui.aceternity.com/", "category": "React & Next.js", "styling": "Tailwind CSS + Framer Motion", "description": "Chuyên các hiệu ứng animation cực kỳ hiện đại, mượt mà mang phong cách Apple/Stripe." },
+  { "name": "Magic UI", "url": "https://magicui.design/", "category": "React & Next.js", "styling": "Tailwind CSS + Framer Motion", "description": "Tập hợp các component tối ưu cho Landing Page của Startup, SaaS." },
+  { "name": "HyperUI", "url": "https://www.hyperui.dev/", "category": "Framework Agnostic (HTML/JSX/Vue)", "styling": "Tailwind CSS thuần", "description": "Kho component giao diện miễn phí, thuần Tailwind, copy dán ở mọi framework." },
+  { "name": "Uiverse.io", "url": "https://uiverse.io/", "category": "Framework Agnostic", "styling": "CSS thuần + Tailwind", "description": "Cộng đồng đóng góp hàng ngàn nút bấm, thẻ bài, loader độc lạ, chỉ việc copy CSS/HTML." },
+  { "name": "Flowbite", "url": "https://flowbite.com/", "category": "HTML / React / Vue / Svelte", "styling": "Tailwind CSS", "description": "Hệ thống UI Component mã nguồn mở khổng lồ dựa trên Tailwind." },
+  { "name": "TailwindUI (Free Components)", "url": "https://tailwindui.com/preview", "category": "Framework Agnostic", "styling": "Tailwind CSS", "description": "Các mẫu miễn phí từ đội ngũ tạo ra Tailwind. Chất lượng thiết kế đỉnh cao." },
+  { "name": "Park UI", "url": "https://park-ui.com/", "category": "React / Vue / Solid", "styling": "Tailwind CSS + Ark UI", "description": "UI component hỗ trợ đa nền tảng, thiết kế tối giản, hỗ trợ cả Vue và Solid." },
+  { "name": "LottieFiles", "url": "https://lottiefiles.com/", "category": "Animations & Assets", "styling": "JSON Animation", "description": "Kho ảnh động siêu nhẹ dạng vector, copy link nhúng thẳng vào web." },
+  { "name": "DaisyUI", "url": "https://daisyui.com/", "category": "Framework Agnostic", "styling": "Tailwind Plugin", "description": "Biến Tailwind thành các class rút gọn (VD: btn, card). Viết code UI cực nhanh." }
+]
