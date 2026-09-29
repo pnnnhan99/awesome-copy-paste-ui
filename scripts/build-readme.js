@@ -45,21 +45,26 @@ async function buildReadme() {
   const activeCount = statuses.filter((l) => l.status === '🟢').length;
   const categories = groupByCategory(statuses);
 
-  let md = `# 🎨 Awesome Copy-Paste UI
+  const formatter = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'UTC',
+    dateStyle: 'full',
+    timeStyle: 'medium',
+  });
+  const lastUpdate = formatter.format(new Date());
 
-[![Total Libraries](https://img.shields.io/badge/Total_Libraries-${libs.length}-blue)]()
-[![Active Links](https://img.shields.io/badge/Active_Links-${activeCount}-green)]()
-[![Auto Update](https://img.shields.io/badge/Auto_Update-Daily-purple)]()
+  let md = `# 🎨 Awesome Copy-Paste UI\n\n`;
+  md += `[![Total Libraries](https://img.shields.io/badge/Total_Libraries-${libs.length}-blue)]()\n`;
+  md += `[![Active Links](https://img.shields.io/badge/Active_Links-${activeCount}-green)]()\n`;
+  md += `[![Auto Update](https://img.shields.io/badge/Auto_Update-Daily-purple)]()\n\n`;
 
-✨ Kho báu UI Components cực mượt theo chuẩn 'Copy & Paste'. Không cần npm install nặng nề, thấy đẹp là copy dán ngay vào project! Giúp Vibe Coder dựng Landing Page và Web App trong tích tắc.
+  md += `> 🕒 **Last auto update:** ${lastUpdate}\n\n`;
 
----
-
-`;
+  md += `✨ A treasure trove of ultra-smooth UI Components following the 'Copy & Paste' standard. No heavy npm install needed - if it looks good, copy and paste it directly into your project! Helps Vibe Coders build Landing Pages and Web Apps in no time.\n\n`;
+  md += `---\n\n`;
 
   for (const [category, items] of Object.entries(categories)) {
     md += `## 📦 ${category}\n\n`;
-    md += `| Tên Thư viện | Mô tả ngắn | Công nghệ lõi (Styling) | Trạng thái web |\n`;
+    md += `| Library Name | Short Description | Core Technology (Styling) | Web Status |\n`;
     md += `|---|---|---|---|\n`;
     for (const lib of items) {
       md += `| [${lib.name}](${lib.url}) | ${lib.description} | ${lib.styling} | ${lib.status} |\n`;
