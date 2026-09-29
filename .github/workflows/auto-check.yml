@@ -31,7 +31,7 @@ jobs:
 
       - name: Auto-commit updates
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "GitHub Actions Bot"
+          git config user.email "nnhann99@gmail.com"
           git add README.md data/ui-libs.json
           git diff --staged --quiet || (git commit -m "chore: auto update ui libraries status & readme" && git push)
