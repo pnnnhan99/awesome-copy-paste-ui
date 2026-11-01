@@ -21,6 +21,13 @@
     "description": "Collection of components optimized for Startup and SaaS Landing Pages."
   },
   {
+    "name": "qodesign-free",
+    "url": "https://github.com/teodoravadani/qodesign-free",
+    "category": "React & Next.js",
+    "styling": "Tailwind CSS + Framer Motion",
+    "description": "Free MIT animated components and the Orbit and Ledger dashboards. Copy them in with the shadcn CLI or as single HTML files."
+  },
+  {
     "name": "HyperUI",
     "url": "https://www.hyperui.dev/",
     "category": "Framework Agnostic (HTML/JSX/Vue)",
